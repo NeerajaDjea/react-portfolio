@@ -16,7 +16,31 @@ body {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: #282c34;
+}
+
+.card-text {
+    background-color: #414753;
+}
+
+.card-title.h5 {
+    color: #414753
+}
+
+.btn.btn-primary {
+    margin: 5px;
+}
+
+CardDeck {
+    padding-top: 50px;
+    background: #ECEFF1;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
 }
 
 #link {

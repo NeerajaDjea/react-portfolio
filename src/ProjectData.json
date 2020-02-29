@@ -1,38 +1,37 @@
- [{
-         "title": "Fitness App ",
-         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
-         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
-         "img": "../img/fitness.png",
-         "details": " An app to record fitness goals"
-     },
-     {
-         "title": "Fitness App ",
-         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
-         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
-         "img": "../img/fitness.png",
-         "details": " An app to record fitness goals"
-     },
-     {
-         "title": "Fitness App ",
-         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
-         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
-         "img": "../img/fitness.png",
-         "details": " An app to record fitness goals"
+[{
+        "title": "Password Generator ",
+        "codeUrl": "https://github.com/NeerajaDjea/generatePassword",
+        "appUrl": "https://neerajadjea.github.io/generatePassword",
+        "img": "../img/password.png",
+        "details": "The application generates an unique password according to the users' choice of what characters need to be included. The unique password can be copied by clicking on the 'Copy to Clipboard' key."
+    },
+    {
+        "title": "RestaurantSearch  App",
+        "codeUrl": "https://github.com/NalinKane/Restaurant-App",
+        "appUrl": "https://neerajadjea.github.io/restaurantSearch/",
+        "img": "../img/restaurant.png",
+        "details": "The Restaurant search was created with a tourist/foodie in mind.The app enables to find restaurants in the nearby area and to be able to sort his findings by distance/price/rating. The app uses the client's location coordinates with the help of google API. "
+    },
+    {
+        "title": "Note Taker",
+        "codeUrl": "https://github.com/NeerajaDjea/noteTaker",
+        "appUrl": "https://note-record.herokuapp.com/",
+        "img": "../img/notetaker.png",
+        "details": " A todo App that enables the user to add ,modify and delete tasks ."
+    },
+    {
+        "title": "Fitness App ",
+        "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
+        "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
+        "img": "../img/fitness.png",
+        "details": "Fitpoint is a web application with the aim to allow users to track their weight loss progress and fitness goals. The application has several features like calorie calculator, calendar, recipes  and exercise ideas"
+    },
+    {
+        "title": "Employee-Directory",
+        "codeUrl": "https://github.com/NeerajaDjea/Employee-Directory",
+        "appUrl": "https://employee-dir-react.herokuapp.com/",
+        "img": "../img/employee.png",
+        "details": "An employee directory is created with React. The application's UI is broken down into components which can respond to user events."
+    }
 
-     },
-     {
-         "title": "Fitness App ",
-         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
-         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
-         "img": "../img/fitness.png",
-         "details": " An app to record fitness goals"
-
-     },
-     {
-         "title": "Fitness App ",
-         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
-         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
-         "img": "../img/fitness.png",
-         "details": " An app to record fitness goals"
-     }
- ]
+]
