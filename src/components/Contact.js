@@ -32,9 +32,7 @@ function Contact() {
             <input id='input' name='message' class='input' />
           </div>
           <div>
-            <button class='button'>
-              <strong>Submit</strong>
-            </button>
+            <button class='button'>Submit</button>
           </div>
         </div>
       </form>

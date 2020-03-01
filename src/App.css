@@ -21,6 +21,7 @@ body {
 
 .card-text {
     background-color: #414753;
+    height: 150px;
 }
 
 .card-title.h5 {
@@ -29,18 +30,17 @@ body {
 
 .btn.btn-primary {
     margin: 5px;
+    margin-bottom: 10px;
+    background-color: #414753;
 }
 
-CardDeck {
-    padding-top: 50px;
-    background: #ECEFF1;
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    padding: 20px;
-    justify-content: space-around;
-    align-content: flex-start;
-    overflow: auto;
+.btn.btn-primary:hover {
+    color: rgb(19, 18, 19);
+    -webkit-transform: scale(.4);
+    transform: scale(1.0);
+    -webkit-transition: 1s;
+    transition: 0.5s;
+    background-color: #6f788b;
 }
 
 #link {
@@ -85,13 +85,28 @@ CardDeck {
 }
 
 .button {
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: #414753;
+    color: beige;
     padding: 10px;
-    margin: 10px;
-    color: #414753;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: rgb(19, 18, 19);
+    -webkit-transform: scale(.4);
+    transform: scale(1.0);
+    -webkit-transition: 1s;
+    transition: 0.5s;
+    background-color: #6f788b;
+}
+
+h1 {
+    margin-top: 50px;
 }
 
 .main-container {
-    margin-top: 200px;
     color: #414753;
     background: #fdfbfb;
     border-width: 1px;
@@ -103,6 +118,10 @@ CardDeck {
     margin-bottom: 30px;
     box-shadow: 4px 4px 8px rgb(73, 72, 72);
     margin-top: 15px;
+}
+
+.navgation {
+    margin-top: 150px;
 }
 
 

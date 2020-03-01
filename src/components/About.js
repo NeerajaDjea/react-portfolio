@@ -1,6 +1,5 @@
 import React from 'react';
-import WOW from 'wowjs';
-import Pic from '../img/pic.png';
+import Pic from '../pic.png';
 
 function About() {
   return (

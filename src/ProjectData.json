@@ -3,28 +3,28 @@
         "codeUrl": "https://github.com/NeerajaDjea/generatePassword",
         "appUrl": "https://neerajadjea.github.io/generatePassword",
         "img": "../img/password.png",
-        "details": "The application generates an unique password according to the users' choice of what characters need to be included. The unique password can be copied by clicking on the 'Copy to Clipboard' key."
+        "details": "The application generates an unique password based on the user's choice, it can also be copied into the clipboard"
     },
     {
         "title": "RestaurantSearch  App",
         "codeUrl": "https://github.com/NalinKane/Restaurant-App",
         "appUrl": "https://neerajadjea.github.io/restaurantSearch/",
         "img": "../img/restaurant.png",
-        "details": "The Restaurant search was created with a tourist/foodie in mind.The app enables to find restaurants in the nearby area and to be able to sort his findings by distance/price/rating. The app uses the client's location coordinates with the help of google API. "
+        "details": "The app enables the user to find suitable restaurants nearby, and also sort the is findings by distance/price/rating. "
     },
     {
         "title": "Note Taker",
         "codeUrl": "https://github.com/NeerajaDjea/noteTaker",
         "appUrl": "https://note-record.herokuapp.com/",
         "img": "../img/notetaker.png",
-        "details": " A todo App that enables the user to add ,modify and delete tasks ."
+        "details": "An application that can be used to write, save, and delete notes. This is built using an express backend."
     },
     {
         "title": "Fitness App ",
         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
         "img": "../img/fitness.png",
-        "details": "Fitpoint is a web application with the aim to allow users to track their weight loss progress and fitness goals. The application has several features like calorie calculator, calendar, recipes  and exercise ideas"
+        "details": "Fitpoint is a web application which  allows users to track their weight loss progress and fitness goals."
     },
     {
         "title": "Employee-Directory",
@@ -33,5 +33,4 @@
         "img": "../img/employee.png",
         "details": "An employee directory is created with React. The application's UI is broken down into components which can respond to user events."
     }
-
 ]

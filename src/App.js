@@ -11,6 +11,7 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <NavBar />
+
     // <BrowserRouter>
     //   <div className='App'>
     //     <h1> React Portfolio </h1>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Fitness from '../img/fitness.png';
-import Employee from '../img/employee.png';
-import Burger from '../img/burger.png';
-import notes from '../img/notetaker.png';
-import restaurant from '../img/restaurant.png';
+// import Fitness from '../img/fitness.png';
+// import Employee from '../img/employee.png';
+// // import Burger from '../img/burger.png';
+// import notes from '../img/notetaker.png';
+// import restaurant from '../img/restaurant.png';
 import ProjectCard from './ProjectCard';
 import ProjectData from '../ProjectData.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
