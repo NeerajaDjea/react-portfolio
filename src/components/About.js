@@ -1,5 +1,6 @@
 import React from 'react';
 import Pic from '../pic.png';
+import Footer from './Footer';
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
         <h1> Hi I am Neeraja </h1>{' '}
       </div>
       <img
-        style={{ height: '350px', margin: '10px', 'border-radius': '5%' }}
+        style={{ height: '250px', margin: '10px', 'border-radius': '5%' }}
         src={Pic}
         alt='profile-pic'
       />
@@ -32,6 +33,7 @@ function About() {
         from the beginning of the course. You can click the links to see the
         deployed versions of my work or check out my code on GitHub.
       </p>
+      <Footer />
     </div>
   );
 }

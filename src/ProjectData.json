@@ -12,6 +12,7 @@
         "img": "../img/restaurant.png",
         "details": "The app enables the user to find suitable restaurants nearby, and also sort the is findings by distance/price/rating. "
     },
+
     {
         "title": "Note Taker",
         "codeUrl": "https://github.com/NeerajaDjea/noteTaker",
