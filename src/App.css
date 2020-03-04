@@ -1,5 +1,5 @@
 body {
-    /* background-image: url("./img/seamless.png"); */
+    background-image: url("./abstract.png");
     background-color: #414753;
     text-align: center;
     margin: 0;
@@ -19,6 +19,28 @@ body {
     color: #282c34;
 }
 
+.img-fluid {
+    width: 40px;
+    margin: 3px 10px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid #0F7F7F;
+}
+
+.img-fluid:hover {
+    -webkit-transform: scale(.4);
+    transform: scale(1.4);
+    -webkit-transition: 1s;
+    transition: 0.5s;
+}
+
+.container {
+    background-color: #414753;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgb(5, 5, 5);
+}
+
 .card-text {
     background-color: #414753;
     height: 120px;
@@ -35,12 +57,11 @@ body {
 }
 
 .btn.btn-primary:hover {
-    color: rgb(19, 18, 19);
+    color: #0F7F7F;
     -webkit-transform: scale(.4);
-    transform: scale(1.0);
+    transform: scale(1.2);
     -webkit-transition: 1s;
     transition: 0.5s;
-    background-color: #6f788b;
 }
 
 #link {
@@ -54,6 +75,7 @@ body {
     transform: scale(1.5);
     -webkit-transition: 1s;
     transition: 0.5s;
+    color: #0F7F7F;
 }
 
 #label {
@@ -81,6 +103,8 @@ body {
     width: 60%;
     margin: 10px;
     padding: 10px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 8px rgb(5, 5, 5);
 }
 
 .button {
@@ -90,15 +114,15 @@ body {
     color: beige;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 4px 4px 8px rgb(5, 5, 5);
 }
 
 .button:hover {
-    color: rgb(19, 18, 19);
+    color: #0F7F7F;
     -webkit-transform: scale(.4);
-    transform: scale(1.0);
+    transform: scale(1.2);
     -webkit-transition: 1s;
     transition: 0.5s;
-    background-color: #6f788b;
 }
 
 h1 {
@@ -106,17 +130,12 @@ h1 {
 }
 
 .main-container {
-    color: #414753;
-    background: #fdfbfb;
-    border-width: 1px;
-    border-style: solid;
     border-color: #dddddd;
     padding: 10px 30px 10px 30px;
     max-width: 960px;
     margin: auto;
-    margin-bottom: 30px;
-    box-shadow: 4px 4px 8px rgb(73, 72, 72);
-    margin-top: 15px;
+    margin-top: 100px;
+    /* margin-top: 15px; */
 }
 
 .navigation-sub {
@@ -133,11 +152,13 @@ h1 {
 .name-title {
     background-color: none;
     padding: 10px;
+    color: #0F7F7F;
+    margin-left: 40px;
 }
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 

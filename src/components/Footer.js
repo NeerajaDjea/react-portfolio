@@ -1,16 +1,16 @@
 import React from 'react';
 
 var style = {
-  backgroundColor: '#F8F8F8',
-  borderTop: '1px solid #E7E7E7',
+  backgroundColor: '8F8F8',
+  borderTop: '1px solid #0F7F7F',
   textAlign: 'center',
   padding: '20px',
   position: 'fixed',
   left: '0',
   bottom: '0',
-  height: '50px',
+  height: '30px',
   width: '100%',
-  color: '#414753',
+  color: '#F5F5DC',
   fontSize: '8px'
 };
 

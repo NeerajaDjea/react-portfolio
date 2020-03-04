@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div>
       <Header />
-      <div class='main-container'>
+      <div class='container'>
         <form
           action='mailto:neeru.jai@gmail.com'
           method='post'
