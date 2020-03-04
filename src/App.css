@@ -46,13 +46,12 @@ body {
 #link {
     text-decoration: none;
     color: beige;
-    margin: 10px;
+    margin-left: 40px;
 }
 
 #link:hover {
-    color: rgb(19, 18, 19);
     -webkit-transform: scale(2.4);
-    transform: scale(2.0);
+    transform: scale(1.5);
     -webkit-transition: 1s;
     transition: 0.5s;
 }
@@ -120,8 +119,25 @@ h1 {
     margin-top: 15px;
 }
 
-.navgation {
-    margin-top: 150px;
+.navigation-sub {
+    margin-top: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header {
+    width: 100%
+}
+
+.name-title {
+    background-color: none;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
 }
 
 

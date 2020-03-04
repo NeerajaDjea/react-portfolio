@@ -1,12 +1,14 @@
 import React from 'react';
 import Pic from '../pic.png';
 import Footer from './Footer';
+import Header from './Header';
 
 function About() {
   return (
     <div>
       <div class='anim'>
-        <h1> Hi I am Neeraja </h1>{' '}
+        <Header />
+        <h1> Welcome to my webpage </h1>{' '}
       </div>
       <img
         style={{ height: '250px', margin: '10px', 'border-radius': '5%' }}
