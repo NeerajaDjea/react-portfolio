@@ -43,6 +43,7 @@ body {
 
 .card-text {
     background-color: #414753;
+    opacity: 0.9;
     height: 120px;
 }
 

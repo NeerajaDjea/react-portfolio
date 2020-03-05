@@ -5,6 +5,7 @@ import Header from './Header';
 import email from '../email.png';
 import github from '../github.png';
 import linkedin from '../linkedin.png';
+import cv from '../cv.png';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function About() {
@@ -61,6 +62,13 @@ function About() {
             rel='noopener noreferrer'
           >
             <img className='img-fluid' src={linkedin} alt='' />
+          </a>
+          <a
+            href='https://drive.google.com/file/d/1mvU_iw7LkpFoex19n3zZuy-sDkr2-J5h/view'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img className='img-fluid' src={cv} alt='' />
           </a>
         </div>
       </div>
