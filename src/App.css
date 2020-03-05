@@ -161,6 +161,24 @@ h1 {
     justify-content: space-between;
 }
 
+@media(max-width: 600px) {
+    .navigation-sub {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        color: #cccccc;
+        padding: 1px 1px;
+        list-style-type: none;
+        font-size: small;
+    }
+    .card {
+        margin: 20px;
+    }
+    .container {
+        margin: 10px;
+    }
+}
+
 
 /* .anim {
     position: relative;

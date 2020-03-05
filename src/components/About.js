@@ -2,7 +2,7 @@ import React from 'react';
 import Pic from '../pic.png';
 import Footer from './Footer';
 import Header from './Header';
-import stackoverflow from '../stackoverflow.png';
+import email from '../email.png';
 import github from '../github.png';
 import linkedin from '../linkedin.png';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -41,11 +41,11 @@ function About() {
         </p>
         <div className='contactLinks'>
           <a
-            href='https://stackoverflow.com/users/story/12518300/'
+            href='mailto:neeru.jai@gmail.com'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img className='img-fluid' src={stackoverflow} alt='' />
+            <img className='img-fluid' src={email} alt='' />
           </a>
           <a
             className='contactLinks'
