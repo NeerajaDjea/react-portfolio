@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
       <div className='navigation'>
-        <h2 class='name-title'>Neeraja</h2>
+        <h2 class='name-title'> Neeraja </h2>
         <div className='navigation-sub'>
           <Link id='link' to='/' className='item'>
             {' '}

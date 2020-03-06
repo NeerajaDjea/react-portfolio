@@ -16,14 +16,14 @@ function Contact() {
           <div class='main-container'>
             <h3 class='sub-heading'>Contact Me</h3>
             <div class='group'>
-              <label for='input-name' class='label'>
+              <label for='input-name' class='label' id='input1'>
                 {' '}
                 Name{' '}
               </label>
               <input id='input' name='name' class='input' />
             </div>
             <div class='group'>
-              <label for='input-email' class='label'>
+              <label for='input-email' class='label' id='input1'>
                 {' '}
                 Email{' '}
               </label>
