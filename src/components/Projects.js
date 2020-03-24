@@ -6,6 +6,7 @@ import { CardDeck } from 'react-bootstrap';
 import '../App.css';
 import Footer from './Footer';
 import Header from './Header';
+import FadeIn from 'react-fade-in';
 
 export class Projects extends Component {
   state = {
@@ -16,7 +17,9 @@ export class Projects extends Component {
     return (
       <div>
         <Header />
-        <h1> Projects </h1>
+        <FadeIn>
+          <h1> Projects </h1>
+        </FadeIn>
         <CardDeck>
           {this.state.ProjectData.map(Project => (
             <ProjectCard
@@ -28,6 +31,7 @@ export class Projects extends Component {
             />
           ))}
         </CardDeck>
+
         <Footer />
       </div>
     );
