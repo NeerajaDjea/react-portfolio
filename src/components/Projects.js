@@ -10,7 +10,7 @@ import FadeIn from 'react-fade-in';
 
 export class Projects extends Component {
   state = {
-    ProjectData
+    ProjectData,
   };
 
   render() {
@@ -18,10 +18,10 @@ export class Projects extends Component {
       <div>
         <Header />
         <FadeIn>
-          <h1> Projects </h1>
+          <h2> Projects </h2>
         </FadeIn>
         <CardDeck>
-          {this.state.ProjectData.map(Project => (
+          {this.state.ProjectData.map((Project) => (
             <ProjectCard
               title={Project.title}
               codeUrl={Project.codeUrl}

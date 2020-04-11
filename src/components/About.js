@@ -13,10 +13,10 @@ function About() {
   return (
     <div>
       <Header />
+      <FadeIn>
+        <h2 class='sub-heading'> Welcome to my Website </h2>{' '}
+      </FadeIn>
       <div class='container'>
-        <FadeIn>
-          <h3 class='sub-heading'> Welcome to my Website </h3>{' '}
-        </FadeIn>
         <img
           style={{ height: '250px', margin: '10px', 'border-radius': '5%' }}
           src={Pic}

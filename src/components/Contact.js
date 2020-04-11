@@ -8,6 +8,9 @@ function Contact() {
   return (
     <div>
       <Header />
+      <FadeIn>
+        <h3 class='sub-heading'>Contact Me</h3>
+      </FadeIn>
       <div class='container'>
         <form
           action='mailto:neeru.jai@gmail.com'
@@ -15,9 +18,6 @@ function Contact() {
           enctype='text/plain'
         >
           <div class='main-container'>
-            <FadeIn>
-              <h3 class='sub-heading'>Contact Me</h3>
-            </FadeIn>
             <div class='group'>
               <label for='input-name' class='label' id='input1'>
                 {' '}
