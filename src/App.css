@@ -45,6 +45,7 @@ body {
     background-color: #414753;
     opacity: 0.9;
     height: 120px;
+    overflow: scroll;
 }
 
 .card-title.h5 {
@@ -77,6 +78,12 @@ body {
     -webkit-transition: 1s;
     transition: 0.5s;
     color: #0F7F7F;
+}
+
+.card-deck {
+    margin: 1px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #label {
@@ -166,7 +173,16 @@ h1 {
     justify-content: space-between;
 }
 
-@media(max-width: 480px) {
+.card {
+    margin: 10px;
+    min-width: 200px;
+}
+
+#link1:hover {
+    text-decoration: none;
+}
+
+@media(max-width: 740px) {
     .navigation-sub {
         margin: 0;
         padding: 0;
@@ -175,9 +191,6 @@ h1 {
         padding: 1px 1px;
         list-style-type: none;
         font-size: small;
-    }
-    .card {
-        margin: 20px;
     }
     .container {
         margin: 10px;

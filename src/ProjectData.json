@@ -6,7 +6,7 @@
         "details": "The application generates an unique password based on the user's choice, it can also be copied into the clipboard"
     },
     {
-        "title": "RestaurantSearch  App",
+        "title": "Restaurant Search",
         "codeUrl": "https://github.com/NalinKane/Restaurant-App",
         "appUrl": "https://neerajadjea.github.io/restaurantSearch/",
         "img": "../img/restaurant.png",
@@ -14,14 +14,14 @@
     },
 
     {
-        "title": "Note Taker",
+        "title": "Note Taker ExpressApp",
         "codeUrl": "https://github.com/NeerajaDjea/noteTaker",
         "appUrl": "https://note-record.herokuapp.com/",
         "img": "../img/notetaker.png",
         "details": "An application that can be used to write, save, and delete notes. This is built using an express backend."
     },
     {
-        "title": "Fitness App ",
+        "title": "  FitPoint Fitness App ",
         "codeUrl": "https://github.com/NeerajaDjea/fitness-App",
         "appUrl": "https://hidden-plateau-00466.herokuapp.com/",
         "img": "../img/fitness.png",
@@ -33,5 +33,12 @@
         "appUrl": "https://employee-dir-react.herokuapp.com/",
         "img": "../img/employee.png",
         "details": "An employee directory is created with React. The application's UI is broken down into components which can respond to user events."
+    },
+    {
+        "title": "SoftDev Recruitment",
+        "codeUrl": "https://github.com/NeerajaDjea/Recruitment-App",
+        "appUrl": "https://afternoon-peak-27846.herokuapp.com/",
+        "img": "../img/softDev.png",
+        "details": "A MERN stack application for recruitment, that includes authentication and profile generator."
     }
 ]

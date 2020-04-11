@@ -15,7 +15,7 @@ function About() {
       <Header />
       <div class='container'>
         <FadeIn>
-          <h3 class='sub-heading'> Welcome to my Webpage </h3>{' '}
+          <h3 class='sub-heading'> Welcome to my Website </h3>{' '}
         </FadeIn>
         <img
           style={{ height: '250px', margin: '10px', 'border-radius': '5%' }}
