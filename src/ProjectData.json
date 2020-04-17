@@ -8,7 +8,7 @@
     {
         "title": "Restaurant Search",
         "codeUrl": "https://github.com/NalinKane/Restaurant-App",
-        "appUrl": "https://neerajadjea.github.io/restaurantSearch/",
+        "appUrl": "https://neerajadjea.github.io/ProjectRestaurant/",
         "img": "../img/restaurant.png",
         "details": "The app enables the user to find suitable restaurants nearby, and also sorts the is findings by distance/price/rating. "
     },
